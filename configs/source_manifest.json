@@ -1,0 +1,93 @@
+{
+  "pathscm/model.py": {
+    "source": "generative/response_model.py",
+    "source_sha256": "84f3e8d47b88186ed055f4a302c90e236faa080f3d011a828d8c27e927fc989a"
+  },
+  "pathscm/scm.py": {
+    "source": "generative/linear_scm.py",
+    "source_sha256": "78576a0c9a251a272961411f2e90ce90061fa96b86ea4b600930d7e8f0ca45c7"
+  },
+  "pathscm/components.py": {
+    "source": "generative/pathway_vae.py",
+    "source_sha256": "64d3aa6d324b6683d42c557767c6c6cfdd4aafac7e7f93876de15639f8e1c5e8"
+  },
+  "pathscm/train.py": {
+    "source": "generative/train_response.py",
+    "source_sha256": "c47b0b224c45b8d1914144c0f01aff7ab09bdd06abd1b6ea164b43ab837a33c5"
+  },
+  "pathscm/transfer.py": {
+    "source": "generative/unseen_transfer.py",
+    "source_sha256": "968083eed7fe5bf847244d14b2ce90d17f3d5cc4cfaf04d8de80ebaf7cfd26cc"
+  },
+  "data/dataset.py": {
+    "source": "generative/data.py",
+    "source_sha256": "04c60d946283804f581d07ce85ba05e6900deb4bbfb67e8b7598dddc44f4ea96"
+  },
+  "data/pathways.py": {
+    "source": "common.py",
+    "source_sha256": "298fd69fbe2f48925b50863f8e96e7b3cfc46bfde6c131ffb0c2b22a162d554d"
+  },
+  "data/_protocol.py": {
+    "source": "generative/data_protocol.py",
+    "source_sha256": "c2f68b8e9259a1aab37321e3211c8974770042e4609703ab1091a2bcd1c9b5d4"
+  },
+  "data/_external.py": {
+    "source": "generative/prepare_external.py",
+    "source_sha256": "576ccc65fd37c1729d3c86164416afeb683239c20e8f6b66582005443f059305"
+  },
+  "data/_subset.py": {
+    "source": "generative/subset_nodes.py",
+    "source_sha256": "d2740d6f776c26542f69358a07d09e69cf2ad1bfab1b13b081fac443ac2f893c"
+  },
+  "evaluation/metrics.py": {
+    "source": "generative/metrics.py",
+    "source_sha256": "f4d1275e6f58efc1be0a3b809168fd77d8bfe104c97a8bf3eff9422acba022eb"
+  },
+  "baselines/adapters/mean.py": {
+    "source": "generative/mean_generator.py",
+    "source_sha256": "004fe68621e67c60449f6fa65a6695636ed85331d6cd81640e4b16766dc66479"
+  },
+  "baselines/adapters/scgen.py": {
+    "source": "generative/scgen_generator.py",
+    "source_sha256": "722b7ea85303dced0be13ad9f4f49e8a584a2fb4f2c3ed6e28941c93f4fe397e"
+  },
+  "baselines/adapters/crl.py": {
+    "source": "generative/crl_generator.py",
+    "source_sha256": "a5af6d9067d9d114f8e6dcd06ef0f31033deb155def8c494dc123419ff6d1e8f"
+  },
+  "baselines/gears.py": {
+    "source": "baselines/run_gears_v3.py",
+    "source_sha256": "1b423f52f1ef01596cc281e2bf02f9d483a850b9a72bc60d57a48c4b381e649f"
+  },
+  "baselines/scgen.py": {
+    "source": "baselines/run_scgen.py",
+    "source_sha256": "d73a0318c9f42830b3dfaadc655644807b19025a4e4b1fab7d25a77275c087fa"
+  },
+  "baselines/_crl.py": {
+    "source": "baselines/run_crl.py",
+    "source_sha256": "1c730ff1fa4475426dc51d0f27af979a38510cadd2753fab388e00bc65dcd70f"
+  },
+  "evaluation/unseen.py": {
+    "source": "generative/bench_unseen.py",
+    "source_sha256": "d8a67c20e0f67b3229e587252a35ce35a44a9b46c7c2a420eadcb725da9cd8d3"
+  },
+  "tests/test_model.py": {
+    "source": "tests/test_generative.py",
+    "source_sha256": "e2031ad27e4775e166f2d633df8e8ff73176dba74ad3759c9ed5d4d915e80d73"
+  },
+  "tests/test_transfer.py": {
+    "source": "tests/test_unseen_transfer.py",
+    "source_sha256": "422a58d9fb90e3761a8695f639ed391285b5929bda25294c0f9e538746fb5955"
+  },
+  "tests/test_unseen_aggregation.py": {
+    "source": "tests/test_unseen_aggregation.py",
+    "source_sha256": "8a017fd03beb807a8edc5520093aff4d84a081c00730df492d960d4842965e82"
+  },
+  "evaluation/seen.py": {
+    "sources": {
+      "generative/figures_paper.py": "a18a4b4ad80aaf0b33c7c40d6b4d25154eb81cb97a0b8263387bf739f1cfcf39",
+      "generative/evaluate_in_distribution_all_genes.py": "9f96a9e8c9963633d8c7427b90ea5120fbe698e422121cf52204bd5bf19cefed"
+    },
+    "adaptation": "Original frozen conditions, sampling and PCA; per-seed CSV export; all-gene MSE instead of DE20."
+  }
+}

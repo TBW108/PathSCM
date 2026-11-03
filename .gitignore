@@ -1,0 +1,16 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+/datasets/
+/checkpoints/
+/results/
+/baselines/GEARS/
+/baselines/sota_src/
+/baselines/gears_data/
+*.h5ad
+*.pth
+*.pt
+*.log
+.env
+.env.*

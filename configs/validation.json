@@ -1,0 +1,423 @@
+{
+  "small_prediction_checks": [
+    {
+      "dataset": "k562",
+      "method": "Ours",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "k562",
+      "method": "GEARS",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "k562",
+      "method": "scGen",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "k562",
+      "method": "discrepancy-VAE",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "k562",
+      "method": "SENA",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "rpe1",
+      "method": "Ours",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "rpe1",
+      "method": "GEARS",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "rpe1",
+      "method": "scGen",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "rpe1",
+      "method": "discrepancy-VAE",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "rpe1",
+      "method": "SENA",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "hepg2",
+      "method": "Ours",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "hepg2",
+      "method": "GEARS",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "hepg2",
+      "method": "scGen",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "hepg2",
+      "method": "discrepancy-VAE",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    },
+    {
+      "dataset": "hepg2",
+      "method": "SENA",
+      "prediction_max_error": 0.0,
+      "mmd_exact": true
+    }
+  ],
+  "saved_effect_replays": [
+    {
+      "dataset": "k562",
+      "method": "PathSCM",
+      "seed": 0,
+      "mse_max_error": 2.9802322359939737e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "PathSCM",
+      "seed": 1,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "PathSCM",
+      "seed": 2,
+      "mse_max_error": 2.2351741776893697e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "GEARS",
+      "seed": 0,
+      "mse_max_error": 5.960464477539063e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "GEARS",
+      "seed": 1,
+      "mse_max_error": 4.470348349827624e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "GEARS",
+      "seed": 2,
+      "mse_max_error": 4.470348349827624e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "scGen",
+      "seed": 0,
+      "mse_max_error": 4.470348358154297e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "scGen",
+      "seed": 1,
+      "mse_max_error": 2.2351741776893697e-08,
+      "pearson_max_error": 1.7881393443719418e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "scGen",
+      "seed": 2,
+      "mse_max_error": 2.2351741776893697e-08,
+      "pearson_max_error": 2.384185789905402e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "dVAE",
+      "seed": 0,
+      "mse_max_error": 5.960464488641293e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "dVAE",
+      "seed": 1,
+      "mse_max_error": 4.470348358154297e-08,
+      "pearson_max_error": 1.192092896062924e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "dVAE",
+      "seed": 2,
+      "mse_max_error": 5.9604644719879474e-08,
+      "pearson_max_error": 1.490116118829654e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "SENA",
+      "seed": 0,
+      "mse_max_error": 4.470348355378739e-08,
+      "pearson_max_error": 1.1920928943975895e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "SENA",
+      "seed": 1,
+      "mse_max_error": 2.980232247096204e-08,
+      "pearson_max_error": 1.1920928955078125e-07
+    },
+    {
+      "dataset": "k562",
+      "method": "SENA",
+      "seed": 2,
+      "mse_max_error": 5.9604644719879474e-08,
+      "pearson_max_error": 1.1920928955078125e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "PathSCM",
+      "seed": 0,
+      "mse_max_error": 2.980232233218416e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "PathSCM",
+      "seed": 1,
+      "mse_max_error": 2.980232233218416e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "PathSCM",
+      "seed": 2,
+      "mse_max_error": 2.9802322359939737e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "GEARS",
+      "seed": 0,
+      "mse_max_error": 4.470348358154297e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "GEARS",
+      "seed": 1,
+      "mse_max_error": 4.470348355378739e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "GEARS",
+      "seed": 2,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 1.7881393443719418e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "scGen",
+      "seed": 0,
+      "mse_max_error": 4.470348358154297e-08,
+      "pearson_max_error": 2.980232238769531e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "scGen",
+      "seed": 1,
+      "mse_max_error": 4.470348355378739e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "scGen",
+      "seed": 2,
+      "mse_max_error": 2.980232247096204e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "dVAE",
+      "seed": 0,
+      "mse_max_error": 5.960464466436832e-08,
+      "pearson_max_error": 1.7881393443719418e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "dVAE",
+      "seed": 1,
+      "mse_max_error": 5.960464483090178e-08,
+      "pearson_max_error": 1.7881393443719418e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "dVAE",
+      "seed": 2,
+      "mse_max_error": 1.1920928955078125e-07,
+      "pearson_max_error": 2.384185789905402e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "SENA",
+      "seed": 0,
+      "mse_max_error": 5.9604644719879474e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "SENA",
+      "seed": 1,
+      "mse_max_error": 5.960464477539063e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "rpe1",
+      "method": "SENA",
+      "seed": 2,
+      "mse_max_error": 4.470348358154297e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "PathSCM",
+      "seed": 0,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "PathSCM",
+      "seed": 1,
+      "mse_max_error": 2.9802322359939737e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "PathSCM",
+      "seed": 2,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "GEARS",
+      "seed": 0,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "GEARS",
+      "seed": 1,
+      "mse_max_error": 2.980232247096204e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "GEARS",
+      "seed": 2,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 2.980232238769531e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "scGen",
+      "seed": 0,
+      "mse_max_error": 2.9802322304428586e-08,
+      "pearson_max_error": 2.980232238769531e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "scGen",
+      "seed": 1,
+      "mse_max_error": 2.9802322359939737e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "scGen",
+      "seed": 2,
+      "mse_max_error": 2.9802322387695312e-08,
+      "pearson_max_error": 2.384185792125848e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "dVAE",
+      "seed": 0,
+      "mse_max_error": 5.9604644719879474e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "dVAE",
+      "seed": 1,
+      "mse_max_error": 5.9604644719879474e-08,
+      "pearson_max_error": 2.384185791015625e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "dVAE",
+      "seed": 2,
+      "mse_max_error": 4.470348349827624e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "SENA",
+      "seed": 0,
+      "mse_max_error": 1.1920928955078125e-07,
+      "pearson_max_error": 1.1920928966180355e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "SENA",
+      "seed": 1,
+      "mse_max_error": 5.960464477539063e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    },
+    {
+      "dataset": "hepg2",
+      "method": "SENA",
+      "seed": 2,
+      "mse_max_error": 4.470348349827624e-08,
+      "pearson_max_error": 1.7881393432617188e-07
+    }
+  ],
+  "full_training_run": false,
+  "numerical_function_tests": 20,
+  "unittest_tests": 7,
+  "training_cli_configs_checked": 9,
+  "synthetic_training_steps": 2,
+  "synthetic_checkpoint_reload_passed": true,
+  "external_packages_freshly_installed": false,
+  "raw_datasets_downloaded": false,
+  "baseline_training_cli_imports_checked": [
+    "GEARS",
+    "scGen"
+  ]
+}
