@@ -2,11 +2,13 @@
 
 PathSCM predicts single-cell responses to genetic perturbations using a pathway-level structural causal model. It encodes control cells into pathway states and background variation, propagates perturbations through pathway interactions, and decodes the resulting expression profiles. Follow the steps below to prepare **K562, RPE1, and HepG2**, train PathSCM and four baselines (**GEARS, scGen, discrepancy-VAE, SENA**), and compute prediction metrics on held-out cell batches for seen perturbations.
 
+![overview](./overview_1.svg)
+
 ## 1. Environment
 
 Run commands from the repository root on Linux. Use Python 3.10 and a CUDA GPU (required for scGen training). Install a hardware-compatible PyTorch build before the requirements.
 
-![overview](./overview.svg)
+
 
 ```bash
 python3.10 -m venv .venv
