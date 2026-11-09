@@ -1,4 +1,4 @@
-# PathSCM
+# ![PathSCM](overview.pdf)
 
 PathSCM predicts single-cell responses to genetic perturbations using a pathway-level structural causal model. It encodes control cells into pathway states and background variation, propagates perturbations through pathway interactions, and decodes the resulting expression profiles. Follow the steps below to prepare **K562, RPE1, and HepG2**, train PathSCM and four baselines (**GEARS, scGen, discrepancy-VAE, SENA**), and compute prediction metrics on held-out cell batches for seen perturbations.
 
