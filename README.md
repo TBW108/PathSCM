@@ -6,7 +6,7 @@ PathSCM predicts single-cell responses to genetic perturbations using a pathway-
 
 Run commands from the repository root on Linux. Use Python 3.10 and a CUDA GPU (required for scGen training). Install a hardware-compatible PyTorch build before the requirements.
 
-[点击查看 PDF 文件](overview_7.pdf)
+<embed src="./overview_7.pdf" type="application/pdf" width="100%" height="500px" />
 
 ```bash
 python3.10 -m venv .venv
